@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aadiyogi Camping & Treks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #0a3d62;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #1e3799;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center/cover;
+      height: 300px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: green;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Aadiyogi Camping & Treks</h1>
+  <p>Experience Nature Like Never Before 🌄</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#treks">Treks</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  Adventure Starts Here 🚶‍♂️
+</div>
+
+<div class="container">
+
+  <div id="about" class="card">
+    <h2>About Us</h2>
+    <p>Welcome to Aadiyogi Camping & Treks. We provide a unique trekking experience on the Kinner Kailash route with comfortable homestays and mid-way camping tents.</p>
+  </div>
+
+  <div id="treks" class="card">
+    <h2>Our Treks</h2>
+    <ul>
+      <li>Kinner Kailash Trek</li>
+      <li>Camping Stay Experience</li>
+      <li>Guided Trekking Tours</li>
+    </ul>
+  </div>
+
+  <div id="pricing" class="card">
+    <h2>Pricing</h2>
+    <p>🏕️ Camping: ₹999 / night</p>
+    <p>🏠 Homestay: ₹1200 / night</p>
+    <p>🥾 Trek Guide: ₹1500 per trek</p>
+  </div>
+
+  <div id="contact" class="card">
+    <h2>Contact Us</h2>
+    <p>📞 Call/WhatsApp: 9876543210</p>
+    <p>📍 Location: Kinner Kailash Route</p>
+
+    <a class="btn" href="https://wa.me/919876543210" target="_blank">
+      Book on WhatsApp
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Aadiyogi Camping & Treks</p>
+</footer>
+
+</body>
+</html>
